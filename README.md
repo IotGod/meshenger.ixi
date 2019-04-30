@@ -14,6 +14,6 @@ in your ict directory. Simply restart your Ict to load it.
 ### Method B: Download via Web GUI
 
 Visit your Ict's web GUI (requires `web_gui=true` in **ict.cfg**) and go to "IXI MODULES". Click on the
-**install** button and enter the GitHub URL; "citizenfoundation/meshenger.ixi".
+**install** button and enter the GitHub URL; "gastrocole/meshenger.ixi".
 
 Once the IXI module has been downloaded, it will be started.
