@@ -2,7 +2,7 @@
 
 ## About
 
-The IOTA eXtension Interface is a server/client for a decentralised email service running ontop of the Tangle. More information can be found on the [meshenger website.](meshenger.net)
+The IOTA eXtension Interface is a server/client for a decentralised email service running ontop of the Tangle. More information can be found on the [meshenger website.](https://www.meshenger.net)
 
 ## Run the IXI module with your Ict
 
