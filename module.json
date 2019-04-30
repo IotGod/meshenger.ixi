@@ -1,0 +1,9 @@
+{
+  "version": "0.1",
+  "name": "meshenger.ixi",
+  "main_class": "org.iota.ixi.Module",
+  "description": "This IXI module will act a the server for a decentralised email service run ontop of the Tangle",
+  "repository": "citizenfoundation/meshenger.ixi",
+  "gui_port": 8080,
+  "supported_versions": ["0.4"]
+}

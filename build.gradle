@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'org.iota'
+version '0.7-SNAPSHOT'
+
+sourceCompatibility = 1.7
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compileOnly 'com.github.iotaledger:ict:master'
+    runtimeClasspath 'com.github.iotaledger:ict:master'
+    testCompileOnly 'com.github.iotaledger:ict:master'
+}
+
+task ixi(type: Jar) {
+    archiveName = 'ixi.jar'
+    destinationDir = file("$rootDir")
+    from("./") { include 'module.json' }
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
